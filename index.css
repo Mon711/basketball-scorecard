@@ -1,0 +1,25 @@
+@font-face {
+    font-family: "CursedTimer";
+    src: url("fonts/CursedTimerUlil-Aznm.ttf") format("truetype"); 
+}
+
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    background-color: #1B244A;
+    width: 575px;
+    height: 385px;
+}
+
+h3 {
+    color: #EEEEEE;
+    font-weight: 900;
+}
