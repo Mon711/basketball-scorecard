@@ -25,10 +25,18 @@ body {
 h3 {
     color: #EEEEEE;
     font-weight: 900;
-    font-size: 1.5rem;
+    font-size: 2rem;
+    margin: 0 0 10px;
 }
 
-.score {
+.score-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
+
+.score-number {
     font-family: "CursedTimer";
     display: flex;
     justify-content: center;
@@ -40,6 +48,30 @@ h3 {
     background-color: #080001;
 }
 
-.points {
+.add-points {
+    display: flex;
     flex-direction: row;
+    gap: 12px;
+    justify-content: center;
+    margin-top: 16px;
+}
+
+.plus-point {
+    font-family: "CursedTimer";
+    font-size: 1rem;
+    color: #9AABD8;
+    background-color: transparent;
+    border: 2px solid #9AABD8;
+    padding: 10px;
+    border-radius: 10%;
+    cursor: pointer;
+}
+
+.plus-point:hover {
+    background-color: #9AABD8;
+    color: #1B244A;
+}
+
+.plus-point:active {
+    transform: scale(0.98);
 }
